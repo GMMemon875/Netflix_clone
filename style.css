@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background: url(https://wallpapers.com/images/high/netflix-background-gs7hjuwvv2g0e9fj.webp);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main .box {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.44;
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  z-index: 10;
+}
+.logo img {
+  height: 120px;
+  position: relative;
+  z-index: 10;
+}
+.btn {
+  margin-right: 15%;
+}
+button {
+  font-size: 15px;
+  background: red;
+  color: #ffff;
+  border-radius: 6px;
+  width: 90px;
+  height: 36px;
+}
+.disriptionContainer {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+.disription {
+  text-align: center;
+  width: 60%;
+  height: 40vh;
+  color: #fff;
+  background: #000;
+}
+
+.section {
+  text-align: center;
+  margin-top: 9%;
+}
+
+.content h1 {
+  font-size: 50px;
+  color: #ffff;
+}
+.content p {
+  font-weight: normal;
+  font-size: 24px;
+  color: #ffff;
+  margin-top: 2%;
+}
+.input input {
+  display: inline-block;
+  width: 30%;
+  height: 55px;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  background: transparent;
+}
+.join {
+  height: 58px;
+  width: 15%;
+}
+/* 
+.background-clip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background-size: auto;
+  z-index: -1;
+} */
+/* 
+
+.logo h2 {
+  color: #ffff;
+}
+span {
+  font-family: "Raleway", sans-serif;
+  color: orangered;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+  font-size: 16px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+li a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  margin: 19px;
+  color: #ffff;
+  position: relative;
+  font-size: 18px;
+}
+
+li a::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: red;
+  transition: all, 0.5s;
+}
+li a:hover::before {
+  width: 100%;
+  font-size: 20px;
+}
+
+.section {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.content h1 {
+  font-size: 50px;
+  color: #ffff;
+}
+.content p {
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffff;
+}
+
+button {
+  margin-top: 3%;
+  background: rgb(66, 66, 245);
+  width: 20%;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(255, 123, 123, 0.4);
+} */
