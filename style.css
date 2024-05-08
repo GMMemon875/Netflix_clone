@@ -188,11 +188,59 @@ button {
 .Quebox span {
   font-size: 30px;
 }
-.Emailsection p {
+
+.SrchBox {
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.SrchBox input {
+  display: inline-block;
+  padding: 15px;
+  color: #fff;
+  width: 50%;
+  height: 55px;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  background: transparent;
+}
+.pera p {
+  font-size: 30px;
   text-align: center;
-  font-size: 25px;
   margin-top: 4%;
   padding: 1%;
+}
+
+footer {
+  background: #000;
+  margin: auto;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 60vw;
+  margin: auto;
+  padding: 5%;
+}
+
+.item a {
+  color: #fff;
+}
+.footer .item {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.text span {
+  color: #fff;
+  padding: 19%;
 }
 
 /* 
